@@ -18,7 +18,6 @@ spec:
       containers:
       - name: myweb
         image: registry.abxzenithech.com/myweb:1
-        imagePullPolicy: Always
 
 ---
 apiVersion: v1
