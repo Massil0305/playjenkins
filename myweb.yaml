@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-              - image: registry.abxzenithech.com/myweb:1
+      - image: registry.abxzenithech.com/myweb:1
         imagePullPolicy: Always
         name: myweb
 
