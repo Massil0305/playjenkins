@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    registry = "registry.abxzenithech.com/myweb"
+    registry = "registry.abxinternal.com/myweb"
     registryCredential = 'admin-reg'
     dockerImage = ""
   }
